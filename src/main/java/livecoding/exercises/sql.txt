@@ -1,0 +1,10 @@
+Step 1: Create a Table
+We will create a table called "orders" to store information about customer orders, including order ID, customer ID, order date, and order total. Additionally, we'll add some constraints to ensure data integrity.
+Step 2: Create a Customers Table (Dependency)
+To handle the foreign key constraint, we need a "customers" table that stores customer information.
+Let's create that table as well:
+Step 3: Insert Data into the Customers Table
+Let's add some sample customer data:
+Step 4: Insert Data into the Orders Table
+Now, we'll insert some orders into the "orders" table. Note that the customer IDs in the "orders"
+table must exist in the "customers" table due to the foreign key constraint.
